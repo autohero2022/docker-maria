@@ -8,6 +8,7 @@ spring:
     password: root
     url: jdbc:mariadb://31.207.33.183:3306/autohero_db
     username: root
+    driver-class-name: org.mariadb.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: create-drop
