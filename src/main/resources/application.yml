@@ -6,7 +6,7 @@ server:
 spring:
   datasource:
     password: root
-    url: jdbc:mariadb://172.17.0.3:3306/autohero_db?createDatabaseIfNotExist=true
+    url: jdbc:mariadb://31.207.33.183:3306/autohero_db?createDatabaseIfNotExist=true
     username: root
     driver-class-name: org.mariadb.jdbc.Driver
   jpa:
