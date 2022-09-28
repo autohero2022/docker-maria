@@ -2,6 +2,11 @@ server:
   error:
     include-message: always
     include-binding-errors: always
+  tomcat:
+    remoteip:
+      remote-ip-header: "x-forwarded-for"
+      protocol-header: "x-forwarded-proto"
+    
 
 spring:
   datasource:
