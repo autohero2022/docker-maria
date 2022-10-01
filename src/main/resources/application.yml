@@ -38,16 +38,4 @@ spring:
           connectiontimeout: 5000
           timeout: 3000
           writetimeout: 5000
-          
-spring:
-    profiles: dev
-server:
-    address: 127.0.0.1
-    port: 80
----
-spring:
-    profiles: prod
-server:
-    address:  https://31.207.33.183
-     port: 80
-    
+       
