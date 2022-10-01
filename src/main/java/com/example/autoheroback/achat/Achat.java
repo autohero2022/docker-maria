@@ -19,9 +19,7 @@ import javax.persistence.Id;
 public class Achat {
 
     @Id
-    @GeneratedValue(
-            strategy = GenerationType.SEQUENCE
-    )
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private Long idachat;
 
     private String civilite;
