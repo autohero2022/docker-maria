@@ -42,10 +42,12 @@ spring:
 spring:
     profiles: dev
 server:
-    address: 127.0.0.1:80
+    address: 127.0.0.1
+    port: 80
 ---
 spring:
     profiles: prod
 server:
-    address: 31.207.33.183:80
+    address: 31.207.33.183
+     port: 80
     
