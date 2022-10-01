@@ -21,15 +21,7 @@ import java.util.Collections;
 public class Utilisateur implements UserDetails {
 
     @Id
-    @SequenceGenerator(
-            name="student_sequence",
-            sequenceName="student_sequence",
-            allocationSize = 1
-    )
-    @GeneratedValue(
-            strategy = GenerationType.SEQUENCE,
-            generator = "student_sequence"
-    )
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private Long idutilisateur;
     private String email;
     private String password;
