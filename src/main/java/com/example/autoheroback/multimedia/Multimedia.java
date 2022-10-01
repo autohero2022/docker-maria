@@ -15,15 +15,7 @@ import javax.persistence.*;
 public class Multimedia {
 
     @Id
-    @SequenceGenerator(
-            name="multimedia",
-            sequenceName="multimedia_sequence",
-            allocationSize = 1
-    )
-    @GeneratedValue(
-            strategy = GenerationType.SEQUENCE,
-            generator = "multimedia_sequence"
-    )
+    @GeneratedValue(strategy=GenerationType.AUTO)
     public int id;
     public int idvoiture;
     public String multimedia1;
