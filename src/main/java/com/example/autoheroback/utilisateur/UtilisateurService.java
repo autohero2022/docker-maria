@@ -109,7 +109,7 @@ public class UtilisateurService implements UserDetailsService {
                         request.getPassword()
                 ));
 
-        String link = "http://31.207.33.183:8080/api/v1/utilisateur/confirm?token=" + token;
+        String link = "https://31.207.33.183:80/api/v1/utilisateur/confirm?token=" + token;
 
         emailSender.send(
                 request.getEmail(),
