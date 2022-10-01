@@ -15,15 +15,7 @@ import javax.persistence.*;
 public class Voiture {
 
     @Id
-    @SequenceGenerator(
-            name="car_sequence",
-            sequenceName="car_sequence",
-            allocationSize = 1
-    )
-    @GeneratedValue(
-            strategy = GenerationType.SEQUENCE,
-            generator = "car_sequence"
-    )
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private Long voitureid;
     private String marque;
     private String motorisation;
