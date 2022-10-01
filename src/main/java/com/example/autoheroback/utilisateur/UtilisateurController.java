@@ -13,6 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(path ="api/v1/utilisateur")
+@CrossOrigin(origins = "*")
 @AllArgsConstructor
 
 public class UtilisateurController {
