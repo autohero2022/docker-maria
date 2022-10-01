@@ -20,7 +20,7 @@ public class Achat {
 
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-    private Long idachat;
+    private int idachat;
 
     private String civilite;
     private String nom;
