@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "http://31.207.33.183:4200")
+@CrossOrigin(origins = "*")
 @RequestMapping(path ="api/v1/voitures")
 @AllArgsConstructor
 public class VoitureController {
