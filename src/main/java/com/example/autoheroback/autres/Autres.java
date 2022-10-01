@@ -14,17 +14,8 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Entity
 public class Autres {
-
     @Id
-    @SequenceGenerator(
-            name="autres_sequence",
-            sequenceName="autres_sequence",
-            allocationSize = 1
-    )
-    @GeneratedValue(
-            strategy = GenerationType.SEQUENCE,
-            generator = "autres_sequence"
-    )
+    @GeneratedValue(strategy=GenerationType.AUTO)
     public int id;
     public int idvoiture;
     public String autres1;
