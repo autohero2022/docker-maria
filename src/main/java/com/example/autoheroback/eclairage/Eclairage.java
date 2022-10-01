@@ -14,17 +14,8 @@ import javax.persistence.*;
 @Entity
 public class Eclairage {
 
-
     @Id
-    @SequenceGenerator(
-            name="eclairage",
-            sequenceName="eclairage_sequence",
-            allocationSize = 1
-    )
-    @GeneratedValue(
-            strategy = GenerationType.SEQUENCE,
-            generator = "eclairage_sequence"
-    )
+    @GeneratedValue(strategy=GenerationType.AUTO)
     public int id;
     public int idvoiture;
 
