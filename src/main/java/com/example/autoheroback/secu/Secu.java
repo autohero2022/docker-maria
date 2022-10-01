@@ -17,15 +17,7 @@ public class Secu {
 
 
     @Id
-    @SequenceGenerator(
-            name="secu",
-            sequenceName="secu_sequence",
-            allocationSize = 1
-    )
-    @GeneratedValue(
-            strategy = GenerationType.SEQUENCE,
-            generator = "secu_sequence"
-    )
+    @GeneratedValue(strategy=GenerationType.AUTO)
     public int id;
     public int idvoiture;
 
