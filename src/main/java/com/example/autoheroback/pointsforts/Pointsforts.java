@@ -15,15 +15,7 @@ import javax.persistence.*;
 public class Pointsforts {
 
     @Id
-    @SequenceGenerator(
-            name="pf",
-            sequenceName="pf_sequence",
-            allocationSize = 1
-    )
-    @GeneratedValue(
-            strategy = GenerationType.SEQUENCE,
-            generator = "pf_sequence"
-    )
+    @GeneratedValue(strategy=GenerationType.AUTO)
     public int id;
     public int idvoiture;
 
