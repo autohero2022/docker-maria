@@ -15,15 +15,7 @@ import javax.persistence.*;
 public class Confort {
 
     @Id
-    @SequenceGenerator(
-            name="confort_sequence",
-            sequenceName="confort_sequence",
-            allocationSize = 1
-    )
-    @GeneratedValue(
-            strategy = GenerationType.SEQUENCE,
-            generator = "confort_sequence"
-    )
+    @GeneratedValue(strategy=GenerationType.AUTO)
     public int id;
 
     public int idvoiture;
