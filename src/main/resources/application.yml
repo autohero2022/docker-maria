@@ -48,6 +48,6 @@ server:
 spring:
     profiles: prod
 server:
-    address: 31.207.33.183
+    address:  https://31.207.33.183
      port: 80
     
