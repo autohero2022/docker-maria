@@ -16,15 +16,7 @@ public class Diaporama {
 
 
     @Id
-    @SequenceGenerator(
-            name="diaporama",
-            sequenceName="diaporama_sequence",
-            allocationSize = 1
-    )
-    @GeneratedValue(
-            strategy = GenerationType.SEQUENCE,
-            generator = "diaporama_sequence"
-    )
+    @GeneratedValue(strategy=GenerationType.AUTO)
     public int id;
 
     public int idvoiture;
