@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 
-@RestController
+@Controller
 @RequestMapping(path ="api/v1/utilisateur")
 @CrossOrigin(origins = "*")
 @AllArgsConstructor
