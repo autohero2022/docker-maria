@@ -24,3 +24,10 @@ services:
         volumes:
             - /docker-maria/docker-maria/mysql:/var/lib/mysql
         restart: unless-stopped
+    web:
+         image: 'autoherodestock/docker-spring-boot-website:test'
+         restart: unless-stopped
+         depends_on:
+             - api
+         ports:
+             - '443:80'
