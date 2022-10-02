@@ -12,7 +12,7 @@ import org.springframework.stereotype.Controller;
 
 import java.util.Optional;
 
-@Controller
+@RestController
 @RequestMapping(path ="api/v1/utilisateur")
 @CrossOrigin(origins = "*")
 @AllArgsConstructor
