@@ -15,8 +15,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.stereotype.Controller;
 
-@Controller
-
+@RestController
 @CrossOrigin(origins = "*")
 @RequestMapping(path ="api/v1/voituredescription")
 @AllArgsConstructor
