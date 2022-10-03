@@ -11,7 +11,7 @@ server:
 spring:
   datasource:
     password: root
-    url: jdbc:mysql://31.207.33.183:3306/autohero_db?createDatabaseIfNotExist=true
+    url: jdbc:mysql://mysql:3306/autohero_db?createDatabaseIfNotExist=true
     username: root
   jpa:
     hibernate:
