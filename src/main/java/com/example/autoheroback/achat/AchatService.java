@@ -40,7 +40,7 @@ public class AchatService {
         return "OK";
     }
 
-    private String buildEmail(String prenom, String nom, String marque, String motorisation, String prix, String ville, String nomvoie, String numerovoie ,String telephone ) {
+  private String buildEmail(String prenom, String nom, String marque, String motorisation, String prix, String ville, String nomvoie, String numerovoie ,String telephone ) {
         return "<div style=\"font-family:Helvetica,Arial,sans-serif;font-size:16px;margin:0;color:#f37121\">\n" +
                 "\n" +
                 "<span style=\"display:none;font-size:1px;color:#fff;max-height:0\"></span>\n" +
