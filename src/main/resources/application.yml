@@ -22,20 +22,14 @@ spring:
         format_sql: true
     show-sql: true
   mail:
-    host: 31.207.33.183
-    port: 1025
-    username: hello
-    password: hello
-
+    host: mail56.lwspanel.com
+    port: '587'
+    username: contact@autohero-destock.com
+    password: Autohero2022!
     properties:
       mail:
         smtp:
-          ssl:
-            trust: "*"
           auth: true
           starttls:
             enable: true
-          connectiontimeout: 5000
-          timeout: 3000
-          writetimeout: 5000
        
