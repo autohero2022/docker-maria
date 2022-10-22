@@ -76,7 +76,7 @@ public class AutoherobackApplication implements CommandLineRunner {
 				"/assets/img/voitures/toyotayaris/toyotayarisface.jpg");
 
 		Voiture six = new Voiture("Renault Mégane","1.3 TCe Intens","Essence",
-				"2019", "35000 km", "16200", "Double embrayage/DCT",
+				"2019", "35000 km", "16200", "Automatique",
 				"/assets/img/voitures/renaultmegane/renaultmeganeface.jpg");
 
 		Voiture sept = new Voiture("Peugeot 3008","1.5 Blue-HDi Allure EAT8","Diesel",
