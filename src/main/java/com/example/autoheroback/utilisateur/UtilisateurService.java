@@ -141,8 +141,10 @@ public class UtilisateurService implements UserDetailsService {
 
         return "confirmed";
     }
-
-    private String buildEmail(String name, String link) {
+    
+    
+    
+     private String buildEmail(String name, String link) {
         return "<div style=\"font-family:Helvetica,Arial,sans-serif;font-size:16px;margin:0;color:#f37121\">\n" +
                 "\n" +
                 "<span style=\"display:none;font-size:1px;color:#fff;max-height:0\"></span>\n" +
@@ -210,4 +212,15 @@ public class UtilisateurService implements UserDetailsService {
                 "\n" +
                 "</div></div>";
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
 }
