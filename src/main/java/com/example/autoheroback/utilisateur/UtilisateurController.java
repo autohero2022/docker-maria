@@ -45,7 +45,7 @@ public class UtilisateurController {
 
 
 
-    @GetMapping(path = "confirm")
+    @PostMapping(path = "confirm")
     public String confirm(@RequestParam("token") String token) {
         return utilisateurService.confirmToken(token);
     }
