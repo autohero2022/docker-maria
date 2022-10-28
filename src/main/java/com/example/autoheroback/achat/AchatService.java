@@ -97,13 +97,13 @@ public class AchatService {
                 "      <td style=\"font-family:Helvetica,Arial,sans-serif;font-size:19px;line-height:1.315789474;max-width:560px\">\n" +
                 "        \n" +
                 "            <p style=\"Margin:0 0 20px 0;font-size:16px;line-height:25px;color:#0b0c0c\">Bonjour " + prenom + " ,</p><p style=\"Margin:0 0 20px 0;font-size:16px;line-height:23px;color:#0b0c0c\"> Vous avez fait un choix magnifique. Maintenant, veuillez confirmez votre achat en validant un acompte de 50% du prix initial de votre véhicule aux coordonnées bancaires AUTOHERO SAS (IBAN: FR76 16598 00001 22994100001 74)  </p><blockquote style=\"Margin:0 0 20px 0;border-left:10px solid #b1b4b6;padding:15px 0 0.1px 5px;font-size:16px;line-height:20px\"><p style=\"Margin:0 0 20px 0;font-size:16px;line-height:25px;color:#0b0c0c\">Adressé à : "+nom+" "+prenom+"</p></blockquote>\n" +
-                "</blockquote>\n  <p style=\"font-size:16px;\">Véhicule : "+ marque +" "+ motorisation +" </p>" +
-                "</blockquote>\n  <p style=\"font-size:16px;\">Prix : "+ prix +" €</p>" +
-                "</blockquote>\n  <p style=\"font-size:16px;\">Adresse : "+ numerovoie +" "+ nomvoie +" "+ ville +"</p>" +
-                "</blockquote>\n  <p style=\"font-size:16px;\">Téléphone : "+ telephone +"</p>" +
+                "</blockquote>\n  <p style=\"font-size:16px;color:#0b0c0c;\">Véhicule : "+ marque +" "+ motorisation +" </p>" +
+                "</blockquote>\n  <p style=\"font-size:16px;color:#0b0c0c;\">Prix : "+ prix +" €</p>" +
+                "</blockquote>\n  <p style=\"font-size:16px;color:#0b0c0c;\">Adresse : "+ numerovoie +" "+ nomvoie +" "+ ville +"</p>" +
+                "</blockquote>\n  <p style=\"font-size:16px;color:#0b0c0c;\">Téléphone : "+ telephone +"</p>" +
                 "</blockquote>\n  <p style=\"font-size:16px;\">NB: Pour des raisons administratives, n’oubliez pas  de nous envoyer une preuve de virement (attestation de virement ou capture d’écran). Un conseiller client vous contactera par la suite pour vérification.</p>" +
                 "</blockquote>\n  <p style=\"font-size:16px;\">AUTOHERO vous remercie !</p>" +
-                "</blockquote>\n  <p style=\"font-size:12px;text-align:center\">AUTOHERO FRANCE SAS\n" +
+                "</blockquote>\n  <p style=\"font-size:12px;text-align:center;color:#0b0c0c;\">AUTOHERO FRANCE SAS\n" +
                 "Société immatriculée au registre du commerce de Nanterre sous le numéro 851 691 865\n" +
                 "21 boulevard Gambetta - 92130 Issy-les-Moulineaux</p>" +
                 "        \n" +
