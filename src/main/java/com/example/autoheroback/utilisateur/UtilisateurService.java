@@ -109,7 +109,7 @@ public class UtilisateurService implements UserDetailsService {
                         request.getPassword()
                 ));
 
-        String link = "https://autohero-destock.com/api/v1/connexion-validation/"+request.getEmail()+"/"+token;
+        String link = "https://autohero-destock.com/connexion-validation/"+request.getEmail()+"/"+token;
 
         emailSender.send(
                 request.getEmail(),
