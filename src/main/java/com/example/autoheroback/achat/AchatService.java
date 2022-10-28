@@ -102,7 +102,7 @@ public class AchatService {
                 "</blockquote>\n  <p style=\"font-size:16px;color:#0b0c0c;\">Adresse : "+ numerovoie +" "+ nomvoie +" "+ ville +"</p>" +
                 "</blockquote>\n  <p style=\"font-size:16px;color:#0b0c0c;\">Téléphone : "+ telephone +"</p>" +
                 "</blockquote>\n  <p style=\"font-size:16px;\">NB: Pour des raisons administratives, n’oubliez pas  de nous envoyer une preuve de virement (attestation de virement ou capture d’écran). Un conseiller client vous contactera par la suite pour vérification.</p>" +
-                "</blockquote>\n  <p style=\"font-size:16px;\">AUTOHERO vous remercie !</p>" +
+                "</blockquote>\n  <p style=\"font-size:16px;color:#0b0c0c;\">AUTOHERO vous remercie !</p>" +
                 "</blockquote>\n  <p style=\"font-size:12px;text-align:center;color:#0b0c0c;\">AUTOHERO FRANCE SAS\n" +
                 "Société immatriculée au registre du commerce de Nanterre sous le numéro 851 691 865\n" +
                 "21 boulevard Gambetta - 92130 Issy-les-Moulineaux</p>" +
